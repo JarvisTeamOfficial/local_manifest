@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="JarvisTeam"
+	    fetch="https://github.com/JarvisTeamOfficial"
+	    clone-depth="1" />
+   <remote name="MillenniumOSS"
+	    fetch="https://github.com/MillenniumOSS"
+	    clone-depth="1" />
+
+ <!-- Device -->
+ <project path="device/infinix/X6833B" name="android_device_infinix_X6833B" remote="JarvisTeam" revision="lineage-23.2" />
+
+ <!-- Kernel -->
+ <project path="device/infinix/X6833B-kernel" name="android_device_infinix_X6833B-kernel" remote="JarvisTeam" revision="sixteen-mck" />
+ <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="JarvisTeam" revision="sixteen-qpr2" />
+
+ <!--Vendor -->
+ <project path="vendor/infinix/X6833B" name="proprietary_vendor_infinix_X6833B" remote="JarvisTeam" revision="lineage-23.2" />
+
+ <!-- Remove Projects -->
+ <remove-project path="packages/apps/Aperture" />
+
+ <!-- Device Support stuffs -->
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen" />
+ <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="sixteen" />
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen-qpr2-rebase"/>
+ <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen-oem" />
+ <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="MillenniumOSS" revision="lineage-23.2" />
+</manifest>
