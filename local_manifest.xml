@@ -11,7 +11,7 @@
  <project path="device/infinix/X6833B" name="android_device_infinix_X6833B" remote="JarvisTeam" revision="lineage-23.2" />
 
  <!-- Kernel -->
- <project path="device/infinix/X6833B-kernel" name="android_device_infinix_X6833B-kernel" remote="JarvisTeam" revision="sixteen-mck" />
+ <project path="device/infinix/X6833B-kernel" name="android_device_infinix_X6833B-kernel" remote="JarvisTeam" revision="lineage-23.2" />
  <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="JarvisTeam" revision="sixteen-qpr2" />
 
  <!--Vendor -->
